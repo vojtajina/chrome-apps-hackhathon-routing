@@ -1,0 +1,26 @@
+{
+  "name": "Routing Example",
+  "description": "AngularJS routing with Chrome App",
+  "version": "0.0.1",
+  "icons": {},
+  "manifest_version": 2,
+  "minimum_chrome_version": "23.0.1261",
+  "offline_enabled": true,
+  "app": {
+    "background": {
+      "scripts": [
+        "js/background.js"
+      ]
+    }
+  },
+  "permissions": [
+    "experimental",
+    "clipboardRead",
+    "clipboardWrite",
+    "unlimitedStorage",
+    "storage",
+    "fileSystem",
+    "fileSystemWrite"
+  ],
+  "intents": {}
+}
